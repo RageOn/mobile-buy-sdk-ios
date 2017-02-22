@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Mobile Buy SDK/Mobile Buy SDK/**/*.h'
   s.exclude_files = 'Mobile Buy SDK/Mobile Buy SDK/Buy.h'
   s.module_name   = 'Buy'
-  s.frameworks   = 'PassKit'
+  s.weak_framework = 'PassKit'
   s.libraries    = 'c++'
   s.requires_arc = true
 end
